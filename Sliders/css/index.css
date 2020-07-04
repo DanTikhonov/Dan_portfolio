@@ -1,0 +1,37 @@
+
+body{
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+nav{
+	background-color: black;
+	height: 100%;
+	width: 288px;
+}
+main{
+	width: 1100px;
+	height: 100%;
+	background-color: lightgray;
+}
+
+.main{
+	width: 1440px;
+	height: 100vh;
+	background-color: black;
+	display: flex;
+}
+.contener-1{
+	display: flex;
+	justify-content: space-between;
+	height: 225px;
+	background-color: gray;
+	margin-left: 75px; 
+	margin-right: 108px;
+	margin-top: 95px;
+	margin-bottom: 200px;
+}
+.contener-1 div{
+	background-color: lightblue;
+    width: 330px;
+}
