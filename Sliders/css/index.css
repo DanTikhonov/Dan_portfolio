@@ -35,6 +35,7 @@ button{
 	background-color: white;
 	border: 2px solid black;
 	outline: none;
+	margin-right: 10px;
 }
 input{
 	height: 42px;
@@ -49,11 +50,11 @@ select{
 	padding-right: 94px;
 }
 section{
-	
 }
+
 .main{
 	width: 1440px;
-	height: 100vh;
+	height: 300vh;
 	background-color: black;
 	display: flex;
 }
@@ -65,7 +66,8 @@ section{
 	margin-left: 75px; 
 	margin-right: 108px;
 	margin-top: 95px;
-	margin-bottom: 200px;
+	margin-bottom: 155px;
+
 }
 .contener-1 div{
 	background-color: lightblue;
@@ -77,5 +79,43 @@ section{
 .active-button{
 	background-color: #fab811;
 	border: none;
+}
+.contener-2{
+	display: flex;
+	justify-content: space-between;
+	margin-left:49px ;
+	margin-right:49px;
+	margin-top: 40px;
+}
+#al{
+	margin-left:49px ;
+	width: 1000px;
+}
+.contener-3{
+	margin-left: 49px;
+	width:520px ;
+}s
+.contener-4{
+	display: flex;
+	justify-content: center;
 
+}
+#sht2{
+	margin-right: 50px;
+	width: 400px;
+}
+.contener-4 div:first-of-type{
+	margin-left: 100px;
+	margin-top:30px; 
+}
+.contener-4 div:last-of-type{
+	margin-top: -13px;
+}
+.contener-5{
+}
+.p1{
+	margin-right: 550px;
+}
+.p2{
+	
 }
