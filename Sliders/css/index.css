@@ -54,7 +54,7 @@ section{
 
 .main{
 	width: 1440px;
-	height: 300vh;
+	height: 500vh;
 	background-color: black;
 	display: flex;
 }
@@ -94,7 +94,7 @@ section{
 .contener-3{
 	margin-left: 49px;
 	width:520px ;
-}s
+}
 .contener-4{
 	display: flex;
 	justify-content: center;
@@ -102,20 +102,43 @@ section{
 }
 #sht2{
 	margin-right: 50px;
-	width: 400px;
+	width: 425px;
 }
 .contener-4 div:first-of-type{
 	margin-left: 100px;
-	margin-top:30px; 
+	margin-top:125px; 
+	margin-right: 100px;
+	position: relative;
+}
+.contener-4 div:first-of-type>h1{
+	position: absolute;
+	transform: rotate(-90deg);
+	top: 130px;
+	left: -180px;
 }
 .contener-4 div:last-of-type{
-	margin-top: -13px;
+	margin-top: -20px;
 }
 .contener-5{
+display: flex;	
+justify-content: space-between;
 }
 .p1{
-	margin-right: 550px;
+
 }
 .p2{
-	
+margin-bottom: 43px;	
 }
+#sht3{
+	margin-left:115px; 
+	margin-top:100px;
+}
+.contener-5 div:last-of-type{
+	width: 400px;
+	margin-top: 55px;
+	margin-right:43px; 
+}
+.contener-5 div:last-of-type>button{
+	padding-left: 15px;
+	padding-right:15px;	
+margin-bottom:10px;
