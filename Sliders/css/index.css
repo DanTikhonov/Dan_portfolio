@@ -12,7 +12,7 @@ nav{
 main{
 	width: 1100px;
 	height: 100%;
-	background-color: lightgray;
+	background-color: white;
 }
 h1{
 	font-size: 40px;
@@ -51,7 +51,15 @@ select{
 }
 section{
 }
-
+textarea{
+    text-align: left;
+    margin-top: 10px;
+    width: 345px;
+    height: 120px;
+    border-radius: 5px;
+     border:2px solid black;
+     resize: none;
+}
 .main{
 	width: 1440px;
 	height: 500vh;
@@ -142,3 +150,58 @@ margin-bottom: 43px;
 	padding-left: 15px;
 	padding-right:15px;	
 margin-bottom:10px;
+}
+.contener-6 {
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+}
+.contener-6 div{
+	width: 591px;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+}
+.contener-6>p{
+	margin-left: 62px;
+	width: 400px;
+}
+.push-p{
+position: absolute;
+transform: rotate(-90deg);
+top: 150px;
+left: 310px;
+letter-spacing: 5px;
+}
+.contener-7{
+	display: flex;
+	margin-top: 60px;
+margin-bottom: 60px;
+}
+#sht4{
+	height: 430px;
+margin-right: 50px;
+margin-top: 40px;
+}
+.contener-7 div{
+	width: 400px;
+	margin-top: 100px;
+	margin-left: 70px;
+	margin-right: 50px;
+}
+.block{
+	width: 100%;
+	height: 700px;
+	background-color: lightgray;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+textarea{
+    text-align: left;
+    margin-top: 10px;
+    width: 345px;
+    height: 120px;
+    border-radius: 5px;
+     border:2px solid black;
+     resize: none;
+}
