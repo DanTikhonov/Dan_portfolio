@@ -70,7 +70,7 @@ textarea{
 	display: flex;
 	justify-content: space-between;
 	height: 225px;
-	background-color: gray;
+	background-color: white;
 	margin-left: 75px; 
 	margin-right: 108px;
 	margin-top: 95px;
@@ -78,11 +78,21 @@ textarea{
 
 }
 .contener-1 div{
-	background-color: lightblue;
+	background-color: white;
     width: 330px;
 }
 .contener-1 div:first-of-type{
 	width:455px;
+}
+.button{
+    height: 40px;
+    padding-left: 30px;
+    padding-right:30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    outline: none;
 }
 .active-button{
 	background-color: #fab811;
@@ -199,9 +209,55 @@ margin-top: 40px;
 textarea{
     text-align: left;
     margin-top: 10px;
-    width: 345px;
+    width: 320px;
     height: 120px;
     border-radius: 5px;
      border:2px solid black;
      resize: none;
+}
+.contener-8{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	align-items: center;
+}
+.contener-8 a{
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-style: italic;
+}
+.contener-8 div{
+	margin-top: -90px;
+}
+form{
+	margin-right: 40px;
+}
+input[type="email"]{
+width: 323px;
+padding: 0;
+}
+.contener-9{
+	background-color:black ;
+	display: flex;
+	justify-content: space-between;
+}
+.contener-9 h1{
+color:#fab811;
+font-size: 20px;
+
+}
+.contener-9 p{
+	color: white;
+	font-size:20px;
+}
+.contener-9 a{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+.q{
+		font-family: sans-serif;
 }
